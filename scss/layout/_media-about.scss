@@ -1,0 +1,394 @@
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 576px) {
+  .nav-wrapper {
+      display: flex;
+      flex-grow: 1;
+  }
+
+  .site-nav {
+      flex-direction: row;
+      flex-grow: 1;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .nav-list {
+      flex-direction: row;
+      margin: 0;
+      margin-right: auto;
+  }
+
+  .hamburg {
+      display: none;
+  }
+
+}
+
+@media only screen and (min-width:738px) {
+  .about-hero-wrapper {
+      min-width: 457px;
+      width: 100%;
+  }
+
+  .about-hero-inner::after {
+      background-image: url("../../assets/images/menu-open-position-element.png");
+      height: 200px;
+      top: 48%;
+  }
+
+  .directors::before {
+      background-image: url("../../assets/images/meets-second-position-element.png");
+      height: 200px;
+  }
+
+  .directors::after {
+      width: 147px;
+  }
+
+  .directors-list {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+
+      gap: 76px 11px;
+  }
+
+  .directors-item {
+      width: 281px;
+  }
+
+  .directors-item:not(:last-child) {
+      margin-bottom: 0;
+
+  }
+
+  .clients::before {
+      background-image: url("../../assets/images/partners-bg-tablet.png");
+      width: 200px;
+  }
+
+  .clients-list {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0;
+  }
+
+  .clients-item {
+      width: fit-content;
+  }
+
+  .clients-item:first-child .clients-pic {
+      width: 103px;
+  }
+
+  .clients-item:nth-child(2) .clients-pic {
+      width: 114px;
+  }
+
+  .clients-item:nth-child(3) .clients-pic {
+      width: 112px;
+  }
+
+  .clients-item:nth-child(4) .clients-pic {
+      width: 103px;
+  }
+
+  .clients-item:last-child {
+
+      width: 61px;
+  }
+
+  .clients-item:last-child .clients-pic {
+      width: 61px;
+  }
+
+  .ready-inner {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+
+  }
+
+  .ready-title {
+      margin-bottom: 0;
+      margin-right: 84px;
+  }
+
+  .footer-inner {
+      padding-block: 56px;
+  }
+
+  .foot-start {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 32px;
+
+  }
+
+  .footer-logo {
+      margin-bottom: 53px;
+  }
+
+  .foot-address {
+      text-align: right;
+      margin-bottom: 0;
+  }
+
+  .foot-page-list {
+      margin-bottom: 0;
+  }
+
+  .foot-end {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .foot-social-list {
+      margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 785px) {
+  .logo-link {
+      margin-right: 76px;
+  }
+
+  /* HERO START */
+  .hero::before {
+      width: 100px;
+      height: 200px;
+      position: absolute;
+      background-image: url("../../images/before.svg");
+      left: -8%;
+      content: "";
+  }
+
+  .hero-inner {
+      max-width: 1110px;
+      margin: 0;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+
+  .hero-title-wrapper {
+      max-width: 635px;
+  }
+
+  .hero-title {
+      /* font-family: Livvic; */
+      text-align: left;
+      font-size: 100px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 100px;
+  }
+
+  .hero-desc-wrap {
+      max-width: 445px;
+  }
+
+  .hero::after {
+      width: 360px;
+      left: 60%;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .footer-inner {
+      padding-block: 48px;
+      flex-direction: row;
+      justify-content: start;
+      align-items: start;
+  }
+
+  .foot-start {
+      justify-content: start;
+      margin-bottom: 0;
+  }
+
+  .foot-left {
+      margin-right: 125px;
+  }
+
+  .foot-address {
+      text-align: left;
+  }
+
+  .foot-end {
+      flex-direction: column;
+      align-items: flex-end;
+  }
+
+  .foot-social-list {
+      margin-bottom: 53px;
+  }
+
+}
+
+@media only screen and (min-width: 1000px) {
+  .about-hero {
+      padding-block: 120px;
+  }
+
+  .about-hero-wrapper {
+      display: flex;
+      flex-direction: row;
+      max-width: 1110px;
+      width: 100%;
+      justify-content: space-between;
+      margin-inline: 0;
+
+  }
+
+  .line {
+      display: inline-block;
+      background-color: #f67e7e;
+      width: 50px;
+      height: 4px;
+      margin-bottom: 40px;
+
+
+  }
+
+  .about-hero-desc-wrapper {
+      max-width: 730px;
+      width: 100%;
+      text-align: left;
+  }
+
+  .about-hero-inner::after {
+      width: 50px;
+  }
+
+  .about-title {
+      font-size: 64px;
+      font-weight: 700;
+      line-height: 100px;
+
+  }
+
+  .about-desc {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 28px;
+
+  }
+
+  .directors-title {
+      font-size: 48px;
+      line-height: 48px;
+
+  }
+
+  .directors-list {
+      column-gap: 30px;
+  }
+
+  .directors-item {
+      width: 350px;
+  }
+
+  .clients-inner {
+      padding-block: 140px;
+  }
+  .clients-title {
+      font-size: 48px;
+      line-height: 48px;
+
+  }
+  .clients::before {
+      background-image: url("../../assets/images/partners-bg-position-desktop.png");
+      height: 200px;
+  }
+
+  .clients-item:first-child .clients-pic {
+      width: 165px;
+  }
+
+  .clients-item:nth-child(2) .clients-pic {
+      width: 184px;
+  }
+
+  .clients-item:nth-child(3) .clients-pic {
+      width: 180px;
+  }
+
+  .clients-item:nth-child(4) .clients-pic {
+      width: 165px;
+  }
+
+  .clients-item:last-child {
+
+      width: 98px;
+  }
+
+  .clients-item:last-child .clients-pic {
+      width: 61px;
+  }
+
+  .ready-title {
+      font-size: 48px;
+      line-height: 48px;
+      margin-right: 260px;
+  }
+
+  .footer-pic {
+      width: 160px;
+  }
+
+  .foot-left {
+      align-items: start;
+  }
+
+  .foot-page-link {
+      font-size: 18px;
+      line-height: 28px;
+  }
+
+  .address-link {
+      line-height: 30px;
+  }
+
+  .foot-social-list {
+      margin-bottom: 70px;
+  }
+}
+
+@media only screen and (min-width: 1110px) {
+  .about-hero-inner::after {
+      display: none;
+  }
+
+  .about-hero {
+      position: relative;
+  }
+
+  .about-hero::after {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 100px;
+      height: 200px;
+      background-image: url("../../assets/images/menu-open-position-element.png");
+      background-repeat: no-repeat;
+      top: 50%;
+      right: 0;
+
+  }
+  .directors-item {
+      height: 253px;
+  }
+}
+
+@media only screen and (min-width: 1190px) {
+  .hero::before {
+      left: 0;
+  }
+}

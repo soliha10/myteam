@@ -1,0 +1,61 @@
+.hero {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 200px;
+  background-color: #014e56;
+
+}
+
+.hero::after {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  background-image: url("../../images/after.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  content: "";
+}
+
+.hero-inner {
+  display: flex;
+  flex-direction: column;
+  min-width: 217px;
+  max-width: 460px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-title-wrapper {
+  min-width: 217px;
+  max-width: 330px;
+  margin: 0 auto;
+  margin-bottom: 18px;
+}
+
+.hero-title {
+  color: #FFF;
+  text-align: center;
+  font-family: Livvic;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  line-height: 56px;
+  /* 87.5% */
+}
+
+.talent {
+  color: #f67e7e;
+}
+
+.hero-desc {
+  /* font-family: Livvic; */
+  margin: 0;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 28px;
+  /* 186.667% */
+}

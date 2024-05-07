@@ -1,0 +1,20 @@
+@use "../base/typography" as font;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+}
+body {
+  margin: 0px;
+  font-family: "Livvic";
+  background-color: #004047;
+
+}
+a {
+  text-decoration-line: none;
+}

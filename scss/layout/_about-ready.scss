@@ -1,0 +1,46 @@
+
+.ready {
+  background-color: #f67e7e;
+  position: relative;
+  padding-bottom: 84px;
+}
+
+.ready::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 122px;
+  background-image: url("../../assets/images/about-contacts-position-element.png");
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+
+.ready-inner {
+  padding-top: 83px;
+  text-align: center;
+  /* padding-block: 83px; */
+
+}
+
+.ready-title {
+
+  margin-block: 0 24px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #012f34;
+}
+
+.ready-link {
+  width: 153px;
+  display: inline-block;
+  border: 2px solid #012f34;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-decoration-line: none;
+  color: #012f34;
+}

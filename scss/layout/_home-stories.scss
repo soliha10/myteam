@@ -1,0 +1,99 @@
+
+.section-stories {
+  position: relative;
+  background-color: #004047;
+  text-align: center;
+}
+
+.stories-wrap {
+  padding: 140px 0;
+}
+
+.stories-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #fff;
+}
+
+.stories-title > span {
+  color: #79C8C7;
+}
+
+.stories-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.stories-item {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stories-item-about {
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+  color: #ffff;
+}
+
+.stories-user {
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  color: #79C8C7;
+}
+
+.user-work {
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 600;
+  font-style: italic;
+  color: #fff;
+  margin: 0 0 16px;
+}
+.stories-item::before {
+  position: absolute;
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  margin-left: -27px;
+  margin-top: -36px;
+  background-image: url(../../images/qowtrno.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  content: "";
+}
+
+.section-stories::after {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background-image: url(../../images/meets-bottom-position-mobile.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  content: "";
+}
+
+.section-stories::before {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  bottom: 0;
+  right: 0;
+  background-image: url(" ../../images/Group\ 8.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  content: "";
+}
+
+
+
+

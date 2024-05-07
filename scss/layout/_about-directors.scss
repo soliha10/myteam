@@ -1,0 +1,137 @@
+
+.directors {
+  background-color: #004047;
+  position: relative;
+  padding-bottom: 114px;
+}
+
+.directors::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-image: url("../../assets/images/meets-top-position-mobile.png");
+  background-repeat: no-repeat;
+}
+
+.directors::after {
+  content: '';
+  margin-top: 14px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-image: url("../../assets/images/meets-bottom-position-mobile.png");
+  background-repeat: no-repeat;
+  right: 0;
+}
+
+.directors-inner {
+  padding-top: 88px;
+  /* padding-block: 88px ; */
+  text-align: center;
+  color: #fff;
+}
+
+.directors-title {
+  margin-block: 0 48px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+
+}
+
+.directors-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.directors-item {
+  position: relative;
+  max-width: 327px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px 56px;
+  background-color: #012f34;
+}
+
+.directors-item:not(:last-child) {
+  margin-bottom: 52px;
+}
+
+.director-pic {
+  width: 96px;
+  height: 96px;
+  margin-bottom: 16px;
+}
+
+.director-name {
+  margin-block: 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+
+  color: #79c8c7;
+}
+
+.director-desc {
+  margin-block: 0;
+  font-size: 15px;
+  line-height: 25px;
+  font-style: italic;
+}
+
+.director-btn {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f67e7e;
+  background-image: url("../../assets/images/circle-card-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  bottom: -28px;
+}
+.director-default-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-active {
+  background-color: #79c8c7;
+  background-image: url("../../assets/images/btn-x.svg");
+}
+.active {
+  display: none;
+}
+/* .block {
+  display: block;
+}  */
+.hidden-content {
+  display: none;
+  padding-block: 3px 8px;
+}
+
+.directors-desc {
+  text-align: center;
+  margin-block: 0 24px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #fff;
+}
+.directors-desc-wrapper {
+  width: 254px;
+
+}
+.directors-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 16px;
+}

@@ -1,0 +1,53 @@
+
+/* ABOUT PAGE  */
+.list-unstyled {
+  margin-block: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.about-hero {
+  background-color: #014e56;
+  padding-block: 80px 100px;
+
+}
+
+.about-hero-inner {
+
+  position: relative;
+}
+
+.about-hero-inner::after {
+  content: "";
+  background-image: url(" ../../assets/images/hero-mobile-position.png");
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  top: 100%;
+  right: -24px;
+}
+
+.about-hero-wrapper {
+  margin: 0 auto;
+  min-width: 232px;
+  max-width: 327px;
+  text-align: center;
+  color: #fff;
+}
+
+.about-title {
+  margin-block: 0 16px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+
+}
+
+.about-desc {
+  margin-block: 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 28px;
+
+}
